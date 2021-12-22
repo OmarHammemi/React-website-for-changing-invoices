@@ -1,0 +1,27 @@
+import { ADD_REMINDER, REMOVE_REMINDER, CLEAR_REMINDERS } from "../Constants/reminder.constants";
+
+export const
+   add_Reminder = (text, date) => {
+      const action = {
+         type: ADD_REMINDER,
+         text,
+         date
+      }
+
+      return action;
+   },
+   remove_Reminder = (id) => {
+      const action = {
+         type: REMOVE_REMINDER,
+         id
+      }
+
+      return action;
+   },
+   clear_Reminders = () => {
+      const action = {
+         type: CLEAR_REMINDERS
+      }
+
+      return action;
+   }

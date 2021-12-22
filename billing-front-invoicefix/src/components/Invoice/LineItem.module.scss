@@ -1,0 +1,72 @@
+@import 'Invoice';
+
+.lineItem {
+
+  // display: grid;
+  // grid-template-columns: 1fr repeat(2, 5fr) 2fr repeat(2, 3fr) 2fr;
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #333;
+  & > div {
+    @extend %flex-center;
+    padding: ($rhythm/2);
+    border-left: 1px solid $tableBorderColor;
+    width: 100%;
+    line-height: $rhythm;
+    min-width: $rhythm;
+    &:first-of-type {
+      padding: ($rhythm/2) 0;
+      border-left: none;
+    }
+    &:last-of-type {
+      padding: ($rhythm/2) 0;
+    }
+    &:first-of-type, &:nth-child(4), &:last-of-type {
+      text-align: center;
+    }
+  }
+
+}
+.unpaid{
+color:#DC143C;
+}
+
+.quantityWrapper {
+  position: relative;
+
+  .hideQuantity, .showQuantity {
+    background: none;
+    border: none;
+    color: darkred;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .showQuantity {
+    color: darkgreen;
+  }
+}
+
+.deleteLine {
+  @extend %flex-center;
+  color: white;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 25px;
+  right: 0;
+  background: darkred;
+}
+
+input, input[type=number] {
+  padding: $rhythm / 4;
+  border: 1px dotted lighten($tableBorderColor, 2%);
+  border-radius: $borderRadius;
+  min-width: $rhythm * 2;
+  width: 100%;
+}
+input[type=number] {
+  text-align: center;
+}

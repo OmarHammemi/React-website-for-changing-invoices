@@ -1,0 +1,84 @@
+{
+  "name": "navbar-dropdown-v1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@react-pdf/renderer": "^1.6.14",
+    "@syncfusion/ej2-react-splitbuttons": "^19.1.63",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.16.13",
+    "bootstrap": "^5.0.1",
+    "dateformat": "^4.5.1",
+    "emailjs-com": "^3.2.0",
+    "html2canvas": "^1.0.0-rc.7",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "react": "^16.14.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.6.4",
+    "react-csv": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^1.1.5",
+    "react-select": "^4.3.1",
+    "react-textarea-autosize": "^8.3.2",
+    "react-use-form-state": "^0.13.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^7.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dom-to-image": "^2.6.0",
+    "express": "^4.17.1",
+    "formik": "^2.2.6",
+    "jquery": "^3.6.0",
+    "jspdf": "^2.3.1",
+    "node-sass": "^6.0.1",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.7.2",
+    "react-datepicker": "^3.8.0",
+    "react-dropdown": "^1.9.2",
+    "react-ga": "^3.3.0",
+    "react-redux": "^7.2.4",
+    "react-to-print": "^2.12.3",
+    "react-toastify": "^7.0.4",
+    "reactstrap": "^8.9.0",
+    "sass-loader": "^11.1.1",
+    "sfcookies": "^1.0.2",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.9"
+  }
+}
